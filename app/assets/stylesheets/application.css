@@ -14,11 +14,11 @@
  *= require_self
  */
  .jumbotron {
-   background: #fad111;
-   color: white;
+   background: #845ac7;
+   color: light purple;
    padding-bottom: 80px; }
    .jumbotron .btn-primary {
-     background: #845ac7;
+     background: #fad111;
      border-color: #845ac7; }
      .jumbotron .btn-primary:hover {
        background: #7646c1; }
