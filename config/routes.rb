@@ -4,6 +4,7 @@ Rails.application.routes.draw do
   get 'posts/Im_Perfect'
   get 'home/index'
   get 'posts/Lambda_Falling_Over'
+  get 'posts/QBert_Isnt_Dead'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

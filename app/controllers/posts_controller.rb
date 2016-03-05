@@ -7,4 +7,6 @@ class PostsController < ApplicationController
   end
   def Lambda_Falling_Over
   end
+  def QBert_Isnt_Dead
+  end
 end
