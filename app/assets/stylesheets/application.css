@@ -14,8 +14,8 @@
  *= require_self
  */
  .jumbotron {
-   background: #845ac7;
-   color: #845ac7;
+   background: #affa11;
+   color: light purple;
    padding-bottom: 80px; }
    .jumbotron .btn-primary {
      background: #fad111;
