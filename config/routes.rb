@@ -1,6 +1,7 @@
 Rails.application.routes.draw do
   get 'posts/hello_world'
-
+  get 'posts/Laptops_Suck'
+  get 'posts/Im_Perfect'
   get 'home/index'
 
   # The priority is based upon order of creation: first created -> highest priority.
