@@ -3,6 +3,7 @@ Rails.application.routes.draw do
   get 'posts/Laptops_Suck'
   get 'posts/Im_Perfect'
   get 'home/index'
+  get 'posts/Lambda_Falling_Over'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

@@ -5,4 +5,6 @@ class PostsController < ApplicationController
   end
   def Im_Perfect
   end
+  def Lambda_Falling_Over
+  end
 end
