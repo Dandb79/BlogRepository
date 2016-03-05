@@ -14,7 +14,7 @@
  *= require_self
  */
  .jumbotron {
-   background: #532F8C;
+   background: #fad111;
    color: white;
    padding-bottom: 80px; }
    .jumbotron .btn-primary {
@@ -23,7 +23,7 @@
      .jumbotron .btn-primary:hover {
        background: #7646c1; }
    .jumbotron p {
-     color: #d9ccee;
+     color: #affa11;
      max-width: 75%;
      margin: 1em auto 2em; }
    .navbar + .jumbotron {
