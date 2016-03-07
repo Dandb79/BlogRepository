@@ -1,11 +1,5 @@
 Rails.application.routes.draw do
-  get 'posts/hello_world'
-  get 'posts/Laptops_Suck'
-  get 'posts/Im_Perfect'
-  get 'home/index'
-  get 'posts/Lambda_Falling_Over'
-  get 'posts/QBert_Isnt_Dead'
-
+  get '/posts/:postName', to: 'posts#create'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

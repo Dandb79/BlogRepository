@@ -19,10 +19,9 @@
               <li class="dropdown">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Blog Posts <span class="caret"></span></a>
                   <ul class="dropdown-menu" role="menu">
-                    <li><a href="/posts/Laptops_Suck/">Laptops Suck</a></i>
-                    <li><a href="/posts/Im_Perfect/">I'm Perfect</a></i>
-                    <li><a href="/posts/Lambda_Falling_Over/">Lambda Falling Over</a></li>
-                    <li><a href="/posts/QBert_Isnt_Dead/">Q*Bert Isn't Dead</a></li>
+                    <% @posts.each do |post| %>
+		  <li><a href = "/posts/<%= post %>/"><%= post %></a></li>
+		<%end%>
                   </ul>
               </li>
             </ul>
